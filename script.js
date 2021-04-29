@@ -49,16 +49,3 @@ deleteBtn.addEventListener('click', (e) =>{
         priceDisplay.innerText = '';
     }
 })
-
-
-function setup(){
-    let km = milesToKim(26.3);
-    println(km)
-}
-
-function milesToKim(miles){
-    let km = miles * 1.6;
-    return km;
-}
-
-// test
