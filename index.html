@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
     <title>Marco's Grocery</title>
 </head>
 <body>
@@ -14,14 +16,30 @@
         <li id="contact">Contact</li>
     </ul>
 
-    <div class="item-catalog" id="catalog1"></div>
-
-    <div id="priceBox">
-        <h1>Marco's Grocery</h1>
-        <h2 id="priceDisplay"></h2>
+    <div class="item-catalog" id="catalog">
+        <!--All items are added here-->
     </div>
 
-    <button id="delete">Delete Item</button>
+    <div id="totalDisplay">
+        <!-- TOTAL: $XX.XX -->
+    </div>
+    
+    <div id="priceBox">
+        <div id="product-box">
+            <h2>Product</h2>
+            <h2 id="itemDisplay"></h2>
+        </div>
+        <div id="product-price">
+            <h2>Price</h2>
+            <h2 id="priceDisplay"></h2>
+        </div>
+        <div id="product-buttons">
+            <h2>Remove Items</h2>
+            <h2 id="productButtonDisplay"></h2>
+
+        </div>
+    </div>
+
 <script src="script.js"></script>
 </body>
 </html>
